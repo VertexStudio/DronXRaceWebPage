@@ -3336,7 +3336,9 @@ h6 {
   .price_item {
     max-width: 360px;
     margin: 0px auto 30px; }
-
+    #videoBG{
+     display:none;
+      }
   .price_inner {
     margin-bottom: -30px; } }
 @media (max-width: 767px) {

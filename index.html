@@ -41,10 +41,74 @@
 		}
 
 	}
+
+	#videoBG{
+	width:203%;
+	}
+
+	
+	.TextN{
+		font-size:18px !important; 
+		font-weight:400 !important;
+		color: black !important; 
+		text-align: center !important;
+	}
+
+	@media (min-width:991px){
+		.bt1{
+		float:left;
+		position:relative;
+		bottom: 0px;
+	
+		}
+
+		.bt2{
+			float:right;
+			position:relative;
+			bottom: 0px;
+			
+		}
+		
+		.videoPadding{
+			padding: 0px 0 100px 0
+		}
+		
+		#margTop{
+			margin-top: 5px !important;
+		}
+			
+	}
+	
+	@media (min-width:992px){
+			.bt1{
+			float:left;
+			position:relative;
+			bottom: 190px;
+		
+		}
+
+		.bt2{
+			float:right;
+			position:relative;
+			bottom: 190px;
+			right:15px;
+		}
+
+		.videoPadding{
+			padding: 100px 0 100px 0
+		}
+
+		#margTop{
+			margin-top: 0px !important;
+		}
+		
+	}
 	</style>
 </head>
 
 <body style="overflow-x: hidden;">
+
+	
 
 	<!--================Header Menu Area =================-->
 	<header class="header_area">
@@ -61,28 +125,39 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="" id="navbarSupportedContent">
 					
-						<ul class="nav navbar-nav navbar-right" style="display: inline; "> 
-							<li class="nav-item"><a href="#" class="primary_btn" style="display:inherit;padding:0px;">Go To Nexium</a></li>
+						<ul class="nav navbar-nav navbar-right" > 
+							<li class="nav-item"><a href="https://www.facebook.com/dronexrace/" class="primary_btn" style="padding:0px;">Go To Nexium</a></li>
+							<li class="nav-item"><a href="https://store.steampowered.com/" class="primary_btn " id="margTop" style="padding:0px;">Store</a></li>
 						</ul>
+						
 					</div>
 				</div>
+				
 			</nav>
 		</div>
 	</header>
 	<!--================Header Menu Area =================-->
 
 	<!--================Home Banner Area =================-->
+	
+
+	
+	
+	
 	<section class="home_banner_area">
 			<div class="banner_inner"  style="    background: url(img/banner/home-banner.jpg);">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6">
-							<div class="home_left_img">
-								<img class="img-fluid" src="ImgPrv/MainBanner/drone-png-clipart.png" alt="">
+							<div class="videoPadding" >
+								<video id="videoBG" poster="img/prv/dxr/poster.png" autoplay muted loop
+									 src="img/prv/dxr/dronegameplay.mp4" type="video/mp4">
+								</video>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="banner_content">
+
 								<h2 style="letter-spacing: 2px">
 										Drone X Race 
 								</h2>
@@ -90,13 +165,21 @@
 										El primer juego Cyberpunk, de competencia de drones
 								</p>
 								
-									</div>
-								</div>
+
 							</div>
 						</div>
+						
 					</div>
+					<a href="https://store.steampowered.com/" class="bt1" >
+							<img src="img/prv/dxr/btn 01.png" alt="" class="">
+						</a>
+						
+						<a href="https://www.facebook.com/dronexrace/" class="bt2">
+							<img src="img/prv/dxr/btn 02.png" alt="" class="">
+						</a>
 				</div>
 			</div>
+		
 		</section>
 	<!--================End Home Banner Area =================-->
 
@@ -110,6 +193,18 @@
 						<div class="main_title">
 							<h2>Personajes </h2>
 							<h1>Personajes</h1>
+							<div class="container">
+							<p class="TextN" >Corre el año 2081, las fases eliminatorias de la World Super Drone Cup están en curso, solo los mejores competidores se abren paso. Hace años que las competencias tradicionales en las que se exhibía el esfuerzo físico han casi desaparecido, la sociedad ciberpunk que se vive ha permitido conectar a la población civil , los electronic sports o  e-sports son la tendencia del entretenimiento virtual.
+								</p>
+
+						</div>
+						<br><br>
+						<h2>VUELA CON EL DRONE DE  TU ELECCIÓN</h2>
+						<h1>VUELA CON EL DRONE DE  TU ELECCIÓN</h1>
+						<p class="TextN">Somos una especie de humanos llamados CyberMorph estamos listos para sobrevivir al sistema
+							</p>
+						<br><br><br>
+						<h1> ¿Tu Estas Listo para la competencia?</h1>
 						</div>
 					</div>
 				</div>
@@ -122,9 +217,10 @@
 							Nombre: Dembo<br>
 							Edad: 10 años<br>
 							Región de origen: África Central</h1>
-						
+							
 						<!--<a class="primary_btn" href="#reference" onclick="scroll()" >Learn More</a>-->
 					</div>
+					
 				</div>
 				<div class="col-lg-6">
 					<div class="about_us_image_box justify-content-center" >
@@ -132,6 +228,10 @@
 					</div>
 				</div>
 			</div>
+			<br>
+			<p style="font-size: 18px;color:black;font-weight: 400;text-align: center;">
+				Dembo, es el más joven de los participantes y el único niño en sobrevivir a las fases eliminatorias, por lo que es un rival a tener muy en cuenta. Dembo cuenta con implantes cibernéticos decorados con motivos tribales, su objetivo es ganar suficiente Nexium para poder llevar agua potable a su aldea y poder reparar el reactor nuclear que da energía toda la región donde él es originario yla libertad de su Clan.
+			</p>
 		</div>
 	</section>
 
@@ -154,6 +254,10 @@
 					</div>
 				</div>
 			</div>
+			<br>
+			<p style="font-size: 18px;color:black;font-weight: 400;text-align: center;">
+					Scarlett I es una adolescente amante de la moda y la música electro-aural, a pesar de ser muy joven y poseer un gran carisma en las arenas de DRONE X RACE, como competidora es feroz y tiene la mala reputación de ser tramposa. Scarlett lucha en las arenas ya que es líder de un Clan al que todos respetan y gracias a una promesa que le hizo a su padre, la de “liberarlos de la esclavitud.”
+			</p>
 		</div>
 	</section>
 
@@ -176,6 +280,10 @@
 					</div>
 				</div>
 			</div>
+			<br>
+			<p style="font-size: 18px;color:black;font-weight: 400;text-align: center;">
+					Minerva milita en las ligas Antisistema de su país y a pesar de su corta edad lidera uno de los movimientos anarquistas más grandes e importantes del mundo, su participación en la World Super Drone Cup, pretende financiar las actividades de su organización. Minerva es la única competidora completamente humana y es por eso que se ha ganado el respeto de sus rivales, ya que no recurre a ningún tipo de recurso cibernético más que el de sus periféricos virtuales.
+			</p>
 		</div>
 	</section>
 
@@ -198,6 +306,10 @@
 						</div>
 					</div>
 				</div>
+				<br>
+			<p style="font-size: 18px;color:black;font-weight: 400;text-align: center;">
+					Doctor Kim (nombre artístico) ha buscado por años la derrota del sistema y la restitución de la paz mundial, el dinero le es poco importante, su principal aspiración es derrotar al sistema.
+			</p>
 			</div>
 		</section>
 
@@ -255,6 +367,7 @@
 						</div>
 					</div>
 				</div>
+				<p style="font-weight: 500;font-size:18px;color:black;text-align:center;">Este juego se enfatiza en las tácticas de los jugadores con un diseño de nivel abierto, Drone X Race está diseñado para competencias aéreas de ritmo rápido para mostrar la destreza de todos los competidores.</p>
 			</div>
 		</div>
 	</section>
@@ -375,75 +488,100 @@
 
 
 	<!--================ Start Gallery Area =================-->
-	<section class="gallery_area" style="padding: 40px 0px 40px">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2 id="reference">Galeria de imagenes</h2>
-						<h1>Galeria de imagenes</h1>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-8">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<div class="single-gallery">
-								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="ImgPrv/GLL_9_7_2.png" alt="">
-								<div class="content">
-									<a class="pop-up-image" href="ImgPrv/GLL_9_7_2.png">
-										<i class="lnr lnr-eye"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6">
-							<div class="single-gallery">
-								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="ImgPrv/GLL_9_7.png" alt="">
-								<div class="content">
-									<a class="pop-up-image" href="ImgPrv/GLL_9_7.png">
-										<i class="lnr lnr-eye"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-12">
-							<div class="single-gallery">
-								<div class="overlay"></div>
-								<img class="img-fluid w-100" src="ImgPrv/GLL_8_3.png" alt="">
-								<div class="content">
-									<a class="pop-up-image" href="ImgPrv/GLL_8_3.png">
-										<i class="lnr lnr-eye"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 hidden-md hidden-sm">
-					<div class="single-gallery">
-						<div class="overlay"></div>
-						<img class="img-fluid w-100" src="ImgPrv/GLL_3_5.png" alt="">
-						<div class="content">
-							<a class="pop-up-image" href="ImgPrv/GLL_3_5.png">
-								<i class="lnr lnr-eye"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-
-
-
-
 	
+
+	<section class="gallery_area" style="padding: 40px 0px 40px">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="main_title">
+							<h2 id="reference">Videos</h2>
+							<h1>Videos</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								
+									
+									<img class="img-fluid w-100" src="img/prv/Lava.gif" alt="">
+									
+								
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								
+									
+									<img class="img-fluid w-100" src="img/prv/drone2.gif" alt="">
+								
+								
+							</div>
+							
+		</section>
+
+		<section class="gallery_area" style="padding: 40px 0px 40px">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="main_title">
+								<h2 id="reference">Galeria de imagenes</h2>
+								<h1>Galeria de imagenes</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6">
+									<div class="single-gallery">
+										<div class="overlay"></div>
+										<img class="img-fluid w-100" src="ImgPrv/GLL_9_7_2.png" alt="">
+										<div class="content">
+											<a class="pop-up-image" href="ImgPrv/GLL_9_7_2.png">
+												<i class="lnr lnr-eye"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6">
+									<div class="single-gallery">
+										<div class="overlay"></div>
+										<img class="img-fluid w-100" src="ImgPrv/GLL_9_7.png" alt="">
+										<div class="content">
+											<a class="pop-up-image" href="ImgPrv/GLL_9_7.png">
+												<i class="lnr lnr-eye"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="single-gallery">
+										<div class="overlay"></div>
+										<img class="img-fluid w-100" src="ImgPrv/GLL_8_3.png" alt="">
+										<div class="content">
+											<a class="pop-up-image" href="ImgPrv/GLL_8_3.png">
+												<i class="lnr lnr-eye"></i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 hidden-md hidden-sm">
+							<div class="single-gallery">
+								<div class="overlay"></div>
+								<img class="img-fluid w-100" src="ImgPrv/GLL_3_5.png" alt="">
+								<div class="content">
+									<a class="pop-up-image" href="ImgPrv/GLL_3_5.png">
+										<i class="lnr lnr-eye"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
 <!--sustitute for the carousel-->
 
@@ -483,8 +621,8 @@
 
 
 	<!--================Footer Area =================-->
-	<footer class="footer_area section_gap_top">
-		<div class="container">
+	<footer class="footer_area ">
+	<!--	<div class="container">
 			<div class="row footer_inner">
 				<div class="col-lg-3 col-sm-6">
 					<aside class="f_widget ab_widget">
@@ -545,16 +683,17 @@
 						</ul>
 					</aside>
 				</div>
-			</div>
-			<div class="row single-footer-widget">
-				<div class="col-lg-6 col-md-6 col-sm-12">
+			</div>-->
+		<div class="row single-footer-widget">
+				
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="social_widget">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-dribbble"></i></a>
-						<a href="#"><i class="fa fa-behance"></i></a>
+						<a href="https://www.facebook.com/dronexrace"><i class="fa fa-facebook"></i></a>
+						<a href="https://store.steampowered.com/"><i class="fa fa-steam"></i></a>
+						
+						
 					</div>
 				</div>
 			</div>
